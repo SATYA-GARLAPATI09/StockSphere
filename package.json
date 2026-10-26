@@ -1,0 +1,9 @@
+{
+  "name": "stocksphere",
+  "version": "1.0.0",
+  "description": "StockSphere - Intelligent Inventory Management System",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev"
+  }
+}

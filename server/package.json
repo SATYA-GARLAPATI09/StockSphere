@@ -1,0 +1,25 @@
+{
+  "name": "stocksphere-server",
+  "version": "1.0.0",
+  "description": "StockSphere Backend API - Intelligent Inventory Management System with MongoDB & Neo4j",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "seed": "node scripts/seed.js",
+    "sync:graph": "node scripts/syncGraph.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^9.2.0",
+    "mongoose": "^8.4.1",
+    "morgan": "^1.10.0",
+    "neo4j-driver": "^5.21.0"
+  }
+}
